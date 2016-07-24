@@ -11,6 +11,17 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//　記事一覧画面
+Route::get('/', 'ListController@index');
+
+//　記事一覧削除
+Route::get('delete/{id}', 'ListController@delete');
+
+// 記事投稿画面
+Route::get('input', 'PostController@index');
+
+// 記事投稿POST
+Route::post('post', 'PostController@post');
+
+// 記事詳細画面
+Route::get('detail/{id}', 'DetailController@index');
