@@ -29,7 +29,7 @@
     <div class="column">
         <a href="#">
           <div class="callout clearfix">
-              <img src="{{ Asset('assets/img/Garden01.jpg) }}" alt="picture of space">
+              <img src="{{ Asset('assets/img/Garden01.jpg') }}" alt="picture of space">
               <p class="lead">投稿タイトル</p>
               <p class="subheader">ディスクリプション</p>
               <a href="#">
@@ -41,7 +41,7 @@
     <div class="column">
         <a href="#">
           <div class="callout clearfix">
-              <img src="{{ Asset('assets/img/Garden01.jpg) }}" alt="picture of space">
+              <img src="{{ Asset('assets/img/Garden01.jpg') }}" alt="picture of space">
               <p class="lead">投稿タイトル</p>
               <p class="subheader">ディスクリプション</p>
               <a href="#">
